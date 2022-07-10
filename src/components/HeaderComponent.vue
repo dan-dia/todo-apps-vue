@@ -1,11 +1,5 @@
 <template>
-  <b-navbar type="dark" variant="danger" class="text-align">
-    <b-navbar-brand href="/" class="mx-auto title-navbar p-0">Todo Apps</b-navbar-brand>
-  </b-navbar>
+  <v-app-bar app elevation="2" color="red" dense>
+    <v-app-bar-title class="mx-auto white--text text-h5">Todo Apps</v-app-bar-title>
+  </v-app-bar>
 </template>
-
-<style scoped>
-.title-navbar {
-  font-size: 1.5rem !important;
-}
-</style>
